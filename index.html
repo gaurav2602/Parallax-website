@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax_Website</title>
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: dimgray;
+        }
+        .pimg1{
+            background-image: url(Images/pic12.jpg);
+            min-height: 100%;
+        }  
+        .pimg2{
+            background-image: url(Images/pic2.jpg);
+            min-height: 400px;
+        }   
+        .pimg3{
+            background-image: url(Images/pic3.jpg);
+            min-height: 400px;
+        }    
+        .pimg1, .pimg2, .pimg3{
+            /*Properties to fix the image on web */
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .ptext{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        .textbg{
+            background-color: dimgray;
+            color: white;
+            padding: 20px;
+        }
+        .section-light{
+            padding: 50px 80px;
+            text-align: center;
+            background-color: white;
+            color: dimgray;
+        }
+        .section-dark{
+            padding: 50px 80px;
+            text-align: center;
+            background-color: dimgray;
+            color: white;
+        }
+        .section p{
+           text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pimg1">
+       <div class="ptext">
+        <span class="textbg">
+            Parallax website
+        </span>
+       </div>
+    </section>
+    <section class="section section-light">
+        <h2>Section One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore rerum ea, dolor iure recusandae esse maiores sapiente omnis asperiores accusamus suscipit consectetur veritatis nam quam id amet voluptatum impedit sit voluptatibus vero doloremque sunt mollitia? Labore molestiae voluptatum maxime distinctio voluptate! A, cum omnis quia quas, commodi quam quo voluptatum eveniet minus ab laboriosam quibusdam possimus nihil aliquam? Incidunt cupiditate eligendi, autem libero esse nostrum? Voluptate magnam dolorem libero, aliquid quo maiores culpa labore maxime dolore repudiandae qui quibusdam consectetur praesentium, recusandae odit enim voluptatibus quae corporis quis ullam distinctio veniam reiciendis doloremque voluptates. Facere consequuntur quod laborum nesciunt.</p>
+    </section>
+    <section class="pimg2">
+        <div class="ptext">
+         <span class="textbg">
+            Explore Nature
+         </span>
+        </div>
+     </section>
+     <section class="section section-dark">
+        <h2>Section Two</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore rerum ea, dolor iure recusandae esse maiores sapiente omnis asperiores accusamus suscipit consectetur veritatis nam quam id amet voluptatum impedit sit voluptatibus vero doloremque sunt mollitia? Labore molestiae voluptatum maxime distinctio voluptate! A, cum omnis quia quas, commodi quam quo voluptatum eveniet minus ab laboriosam quibusdam possimus nihil aliquam? Incidunt cupiditate eligendi, autem libero esse nostrum? Voluptate magnam dolorem libero, aliquid quo maiores culpa labore maxime dolore repudiandae qui quibusdam consectetur praesentium, recusandae odit enim voluptatibus quae corporis quis ullam distinctio veniam reiciendis doloremque voluptates. Facere consequuntur quod laborum nesciunt.</p>
+    </section>
+    <section class="pimg3">
+        <div class="ptext">
+         <span class="textbg">
+          LOOK,DEEP INTO NATURE
+         </span>
+        </div>
+     </section>
+     <section class="section section-dark">
+        <h2>Section three</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore rerum ea, dolor iure recusandae esse maiores sapiente omnis asperiores accusamus suscipit consectetur veritatis nam quam id amet voluptatum impedit sit voluptatibus vero doloremque sunt mollitia? Labore molestiae voluptatum maxime distinctio voluptate! A, cum omnis quia quas, commodi quam quo voluptatum eveniet minus ab laboriosam quibusdam possimus nihil aliquam? Incidunt cupiditate eligendi, autem libero esse nostrum? Voluptate magnam dolorem libero, aliquid quo maiores culpa labore maxime dolore repudiandae qui quibusdam consectetur praesentium, recusandae odit enim voluptatibus quae corporis quis ullam distinctio veniam reiciendis doloremque voluptates. Facere consequuntur quod laborum nesciunt.</p>
+    </section>
+    <section class="pimg1">
+        <div class="ptext">
+         <span class="textbg">
+             Do Some Coding
+         </span>
+        </div>
+     </section>
+</body>
+
+</html>
